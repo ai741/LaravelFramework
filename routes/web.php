@@ -101,3 +101,5 @@ Route::get('/color/{hex}', function ($hex){
     return "Цвет есть {$hex}";
 })->where(['hex' => '[0-9A-F]{6}']);
 
+//
+
