@@ -13,6 +13,14 @@ use \App\Http\Controllers\TestController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Практика на 03.05
+Route::view('page/main', 'page/news')->name("База");
+Route::view('page/news', 'page/onenews')->name("Одна новость");
+Route::view('page/auth', 'page/auth')->name("Авторизация");
+Route::view('page/cabinet', 'page/cabinet')->name("Кабинет");
+
+
+
 
 //зАДАНИЕ НА 28.04
 
